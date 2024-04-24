@@ -1,0 +1,7 @@
+Allegretto,Andante
+"Row, row, row your boat gently down the stream"
+C4,QN-C4,QN-C4,DEN-D4,SN-E4,QN-E4,DEN-D4,SN-E4,DEN-F4,SN-G4,HN
+"merrily, merrily, merrily, merrily"
+C5,ENT-C5,ENT-C5,ENT-G4,ENT-G4,ENT-G4,ENT-E4,ENT-E4,ENT-E4,ENT-C4,ENT-C4,ENT-C4,ENT
+"life is but a dream."
+G4,DEN-F4,SN-E4,DEN-D4,SN-C4,HN

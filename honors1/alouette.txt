@@ -1,0 +1,15 @@
+Allegro
+"Alouette, gentille alouette"
+F4,DQN-G4,EN-A4,QN-A4,QN-G4,EN-F4,EN-G4,EN-A4,EN-F4,QN-C4,QN
+"Alouette, je te plumerai"
+F4,DQN-G4,EN-A4,QN-A4,QN-G4,EN-F4,EN-G4,EN-A4,EN-F4,HN
+"Je te plumerai la tete"
+F4,EN-G4,EN-A4,EN-a4,EN-C5,EN-C5,EN-C5,QN
+"Je te plumerai la tete"
+C5,EN-a4,EN-A4,EN-G4,EN-F4,QN
+"Et la tete, Et la tete, Alouett’, Alouett’, Oh"
+C5,EN-C5,EN-C5,QN-C4,EN-C4,EN-C4,QN-C5,EN-C5,EN-C5,EN-C5,WN
+"Alouette, gentille alouette"
+F4,DQN-G4,EN-A4,QN-A4,QN-G4,EN-F4,EN-G4,EN-A4,EN-F4,QN-C4,QN
+"Alouette, je te plumerai"
+F4,DQN-G4,EN-A4,QN-A4,QN-G4,EN-F4,EN-G4,EN-A4,EN-F4,HN
