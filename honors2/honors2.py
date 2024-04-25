@@ -63,6 +63,14 @@ class Wave:
         combined_data[:len(self.data)] += self.data
         combined_data[:len(other.data)] += other.data
         return Wave(frequency=self.frequency + other.frequency, duration=self.duration, data=combined_data)
+    
+    def __str__(self) -> str:
+        """
+        Returns a string representation of the Wave object.
+        
+        :returns: A string representation of the Wave object.
+        """
+        return f"Wave(frequency={self.frequency}, duration={self.duration}, length of the wave data={len(self.data)}"
 
 
 class Note:
@@ -106,6 +114,14 @@ class Note:
         beats_per_second = 60 / self.tempo
         duration_notation = DURATION_MAP[self.duration_symbol]
         return duration_notation * beats_per_second
+
+    def __str__(self) -> str:
+        """
+        Returns a string representation of the Note object.
+        
+        :returns: A string representation of the Note object.
+        """
+        return f"Note(pitch={self.pitch}, octave={self.octave}, duration={self.duration_symbol}, tempo={self.tempo})"
 
 class Piano:
     def __init__(self):
@@ -172,6 +188,14 @@ class Piano:
             final_wave += note_wave_to_add
             current_time = start_time + note.duration
         return final_wave
+    
+    def __str__(self) -> str:
+        """
+        Returns a string representation of the Piano object.
+        
+        :returns: A string representation of the Piano object.
+        """
+        return f"Piano(notes_left={self.notes_left}, notes_right={self.notes_right})" 
 
 class Song:
     def __init__(self, filepath: str):
@@ -224,7 +248,15 @@ class Song:
                     self.piano.add_note_right(note)
                 elif hand == 'l':
                     self.piano.add_note_left(note)
-
+    
+    def __str__(self) -> str:
+        """
+        Returns a string representation of the Song object.
+        
+        :returns: A string representation of the Song object.
+        """
+        return f"Song(filepath={self.filepath})"
+    
 def main():
     """
     Main function to load and play songs listed.
